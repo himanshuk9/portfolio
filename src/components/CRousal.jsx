@@ -19,7 +19,7 @@ function CRousal() {
                     </div>
                     <div class="hero-text">
                         <h1>I'M<b><span> HIMANSHU VARMA</span></b></h1>
-                        <h2>MERN STACK WEB DEVELOPER</h2>
+                        <h2 id='txt'>MERN STACK WEB DEVELOPER</h2>
                         <div className="homebutton">
                             <a href="https://www.linkedin.com/in/himanshu-kumawat-86a22b300"><button class="hire" onClick={showalert}><b>Hire Me</b></button></a>
 
