@@ -19,9 +19,9 @@ function Tools() {
                             <p>Powerful code editor with extensive features.</p>
                         </div>
                         <div class="tool">
-                            <img src="https://static.vecteezy.com/system/resources/previews/024/558/808/original/openai-chatgpt-logo-icon-free-png.png" alt="ChatGPT" />
+                            <img src="https://freelogopng.com/images/all_img/1656733637logo-canva-png.png" alt="canva" />
                             <h3>ChatGPT</h3>
-                            <p>AI-based conversational assistant.</p>
+                            <p>Powerful Design tool with extensive features</p>
                         </div>
                         <div class="tool">
                             <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/7914417/github-icon-md.png" alt="GitHub" />
