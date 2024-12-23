@@ -4,7 +4,7 @@ import AOS from 'aos';
 
 function Project() {
   useEffect(() => {
-    AOS.init({ duration: 1000 }); // Initialize AOS with a duration of 1000ms
+    AOS.init({ duration: 1500 }); // Initialize AOS with a duration of 1500ms
   }, []);
 
   return (
@@ -14,6 +14,7 @@ function Project() {
           className="projectheading"
           data-aos="fade-up"
           data-aos-duration="1500"
+          data-aos-delay="200" // Adding delay to the heading
         >
           <i className="fa-solid fa-shield-heart fa-sm"></i> PROJECTS{' '}
           <i className="fa-solid fa-shield-heart fa-sm"></i>
@@ -21,7 +22,7 @@ function Project() {
 
         <div className="projectbox">
           {/* Project 1 */}
-          <div className="card" data-aos="fade-up">
+          <div className="card" data-aos="fade-up" data-aos-delay="100">
             <img src="picsport/portfolio-project-img.jpg" alt="Portfolio" />
             <div className="card__content">
               <p className="card__title">MY PORTFOLIO</p>
@@ -47,7 +48,7 @@ function Project() {
           </div>
 
           {/* Project 2 */}
-          <div className="card" data-aos="fade-right">
+          <div className="card" data-aos="fade-right" data-aos-delay="200">
             <img
               src="http://www.tapsmart.com/wp-content/uploads/2017/03/RoundupHeader118.jpg"
               alt="Stopwatch"
@@ -77,7 +78,7 @@ function Project() {
           </div>
 
           {/* Project 3 */}
-          <div className="card" data-aos="fade-left">
+          <div className="card" data-aos="fade-left" data-aos-delay="300">
             <img src="picsport/foodwebsite.png" alt="Food E-commerce" />
             <div className="card__content">
               <p className="card__title">FOOD ECOMMERCE</p>
@@ -103,7 +104,7 @@ function Project() {
           </div>
 
           {/* Project 4 */}
-          <div className="card" data-aos="fade-up">
+          <div className="card" data-aos="fade-up" data-aos-delay="400">
             <img
               src="https://s3-alpha.figma.com/hub/file/1359318614/ce843372-4fb2-4227-aebc-3192a7d76084-cover.png"
               alt="Chrome Extension"
@@ -130,7 +131,7 @@ function Project() {
           </div>
 
           {/* Project 5 */}
-          <div className="card" data-aos="fade-right">
+          <div className="card" data-aos="fade-right" data-aos-delay="500">
             <img
               src="https://ainow.id/wp-content/uploads/2023/11/image-to-text-extractor.jpg"
               alt="Abstract Text Application"
@@ -160,7 +161,7 @@ function Project() {
           </div>
 
           {/* Project 6 */}
-          <div className="card" data-aos="fade-left">
+          <div className="card" data-aos="fade-left" data-aos-delay="600">
             <img
               src="https://cdn.dribbble.com/users/1018201/screenshots/14700548/food_recipe_4x.png"
               alt="Food Recipe Website"
